@@ -9,6 +9,7 @@ results<-data.frame(1:n,samp)
 colnames(results)<-c("domain","range")
 return(results)
 }
+# Example
 #> nofix(5)
 #  domain range
 #1      1     4
